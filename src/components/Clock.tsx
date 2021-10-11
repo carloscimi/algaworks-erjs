@@ -7,8 +7,7 @@ export default function Clock () {
     setInterval(() => {
       setTime(new Date());
     }, 1000)
-  }, [])
-  
+  }, [])  
 
   return <div>
     agora: { time.toLocaleTimeString() }
